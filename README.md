@@ -4,7 +4,7 @@ Durance has found a magic book in one of his adventures and decided to learn how
 
 
 # Description
-Write <INSERT WORD HERE> that allows Durance to enchant his weapons.
+Create an application that allows Durance to enchant his weapons.
 
 For this version of the kata, only one enchantment is allowed. We might re-roll an existing enchantment but there is a 1/10 that we might lose all current enchantments on the weapon.
 
