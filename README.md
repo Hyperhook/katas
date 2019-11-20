@@ -29,9 +29,10 @@ Inferno Dagger of Durance
 
 # Rules
 
-Max of 1 unique prefixes
-Randomized, we can’t roll into an existing enchantment.
-Probability of losing the enchantment
+- Max of 1 unique prefix
+- Enchantment selection should be randomized
+- We can’t re-roll into an existing enchantment
+- 1/10 probability of losing the enchantment
 
 
 # Starting point
