@@ -47,6 +47,7 @@ public interface Weapon{
   String name;
   int attackPower;
   float attackSpeed;
+  String description;
   List<Stat> stats;
 }
 ```
