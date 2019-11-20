@@ -39,15 +39,14 @@ Inferno Dagger of Durance
 
 ```
 public class Durance{
-	Weapon weapon;
-
-	public void enchant();
+  Weapon weapon;
+  public void enchant();
 }
 
 public interface Weapon{
   String name;
-	int attackPower;
-	float attackSpeed;
-	List<Stat> stats;
+  int attackPower;
+  float attackSpeed;
+  List<Stat> stats;
 }
 ```
