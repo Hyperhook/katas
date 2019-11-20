@@ -29,7 +29,8 @@ Inferno Dagger of Durance
 
 # Rules
 
-- Max of 1 unique prefix
+- Only 1 enchantment should be "active" at a time
+- Having an enchantment prefixes it's name to the weapon
 - Enchantment selection should be randomized
 - We can’t re-roll into an existing enchantment
 - 1/10 probability of losing the enchantment
