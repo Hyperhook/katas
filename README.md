@@ -11,38 +11,38 @@ For this version of the kata, only one enchantment is allowed. We might re-roll 
 Example:
 
 ```
-Dagger of Durance
+Dagger of the Nooblet
  5 attack
  1.0 attack speed
  
- “He has no idea on how to use it”
+ “1337 haxx”
 ```
 After enchanting it, Durance rolled the Fire enchantment!
 
 ```
-Inferno Dagger of Durance
+Inferno Dagger of the Nooblet
  5 attack
  1.0 attack speed
  +5 fire damage
 	
- “He has no idea on how to use it”
+ “1337 haxx”
 ```
 Not satisfied, he enchanted it again and this time he got the Agility enchantment!
 ```
-Quick Dagger of Durance
+Quick Dagger of the Nooblet
  5 attack
  1.0 attack speed
  +5 agility
 	
- “He has no idea on how to use it”
+ “1337 haxx”
 ```
 He felt confident thinking that he could get something better and tried again, sadly, he lost his enchantment!
 ```
-Dagger of Durance
+Dagger of the Nooblet
  5 attack
  1.0 attack speed
  
- “He has no idea on how to use it”
+ “1337 haxx”
 ```
 
 # Rules
@@ -76,9 +76,9 @@ public class Durance{
 }
 
 public class MagicBook{
-  List<Enchant> enchants;
+  List<Enchantment> enchantments;
 
-  public Enchant randomEnchant(){}
+  public Enchantment randomEnchantment(){}
 }
 
 public interface Weapon{
