@@ -17,7 +17,7 @@ Dagger of Durance
  
  “He has no idea on how to use it”
 ```
-After enchanting it, we rolled the Fire enchantment!
+After enchanting it, Durance rolled the Fire enchantment!
 
 ```
 Inferno Dagger of Durance
@@ -27,26 +27,43 @@ Inferno Dagger of Durance
 	
  “He has no idea on how to use it”
 ```
+Not satisfied, he enchanted it again and this time he got the Agility enchantment!
+```
+Quick Dagger of Durance
+ 5 attack
+ 1.0 attack speed
+ +5 agility
+	
+ “He has no idea on how to use it”
+```
+He felt confident thinking that he could get something better and tried again, sadly, he lost his enchantment!
+```
+Dagger of Durance
+ 5 attack
+ 1.0 attack speed
+ 
+ “He has no idea on how to use it”
+```
 
 # Rules
 
 - Only 1 enchantment should be "active" at a time
 - Enchanted weapons have the prefix of the enchantment on them
 - Enchantment selection should be randomized
-- We can’t re-roll into an existing enchantment
+- We can’t roll an enchantment we already have, they are always different
 - 1/10 probability of losing the enchantment
 
 # Enchantments
 
 An enchantment adds different attributes to a weapon, for this kata, we can choose among the following:
 
-| Enchantment | Prefix   | Attributes         |
-|-------------|----------|--------------------|
-| Ice         | Icy      | +5 ice damage      |
-| Fire        | Inferno  | +5 fire damage     |
-| Lifesteal   | Vampire  | +5 lifesteal       |
-| Agility     | Quick    | + 0.5 attack speed |
-| Strength    | Angry    | +5 strength        |
+| Enchantment | Prefix   | Attributes     |
+|-------------|----------|----------------|
+| Ice         | Icy      | +5 ice damage  |
+| Fire        | Inferno  | +5 fire damage |
+| Lifesteal   | Vampire  | +5 lifesteal   |
+| Agility     | Quick    | +5 agility     |
+| Strength    | Angry    | +5 strength    |
 
 # Starting point
 
