@@ -71,7 +71,9 @@ An enchantment adds different attributes to a weapon, for this kata, we can choo
 public class Durance{
   Weapon weapon;
   
-  public void enchant(){}
+  public void enchant(){
+    //Implement here...
+  }
 }
 
 public class Weapon{
