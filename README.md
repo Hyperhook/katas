@@ -61,7 +61,7 @@ public class Durance{
 public class MagicBook{
   List<Enchant> enchants;
 
-  public void randomEnchant(){}
+  public Enchant randomEnchant(){}
 }
 
 public interface Weapon{
