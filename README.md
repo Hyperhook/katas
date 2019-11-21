@@ -72,7 +72,11 @@ public class Durance{
   Weapon weapon;
   
   public void enchant(){
-    //Implement here...
+    // Implement here...
+  }
+  
+  public String describeWeapon(){
+    // Implement here...
   }
 }
 
