@@ -81,7 +81,7 @@ public class MagicBook{
   public Enchantment randomEnchantment(){}
 }
 
-public interface Weapon{
+public abstract class Weapon{
   String name;
   int attackPower;
   float attackSpeed;
