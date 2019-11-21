@@ -53,7 +53,15 @@ An enchantment adds different attributes to a weapon, for this kata, we can choo
 ```
 public class Durance{
   Weapon weapon;
-  public void enchant();
+  MagicBook magicBook;
+  
+  public void enchant(){}
+}
+
+public class MagicBook{
+  List<Enchant> enchants;
+
+  public void randomEnchant(){}
 }
 
 public interface Weapon{
