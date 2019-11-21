@@ -65,23 +65,16 @@ An enchantment adds different attributes to a weapon, for this kata, we can choo
 | Agility     | Quick    | +5 agility     |
 | Strength    | Angry    | +5 strength    |
 
-# Starting point
+# Starting point (can't be modified)
 
 ```
 public class Durance{
   Weapon weapon;
-  MagicBook magicBook;
   
   public void enchant(){}
 }
 
-public class MagicBook{
-  List<Enchantment> enchantments;
-
-  public Enchantment randomEnchantment(){}
-}
-
-public abstract class Weapon{
+public class Weapon{
   String name;
   int attackPower;
   float attackSpeed;
