@@ -65,7 +65,7 @@ An enchantment adds different attributes to a weapon, for this kata, we can choo
 | Agility     | Quick    | +5 agility     |
 | Strength    | Angry    | +5 strength    |
 
-# Starting point (can't be modified)
+# Starting point (Optional)
 
 ```
 public class Durance{
