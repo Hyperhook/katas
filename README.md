@@ -70,6 +70,7 @@ An enchantment adds different attributes to a weapon, for this kata, we can choo
 ```
 public class Durance{
   Weapon weapon;
+  MagicBook magicBook;
   
   public void enchant(){
     // Implement here...
@@ -85,5 +86,6 @@ public class Weapon{
   int attackPower;
   float attackSpeed;
   String description;
+  Enchantment enchantment;
 }
 ```
