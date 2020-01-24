@@ -81,11 +81,7 @@ public class Durance{
   }
 }
 
-public class Weapon{
-  String name;
-  int attackPower;
-  float attackSpeed;
-  String description;
-  Enchantment enchantment;
+public interface Weapon{
+  String stats();
 }
 ```
