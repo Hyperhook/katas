@@ -62,7 +62,7 @@ An enchantment adds different attributes to a weapon, for this kata, we can choo
 | Ice         | Icy      | +5 ice damage  |
 | Fire        | Inferno  | +5 fire damage |
 | Lifesteal   | Vampire  | +5 lifesteal   |
-| Agility     | Quick    | +5 agility ( translates to tenth of a second )     |
+| Agility     | Quick    | +5 agility ( translates to + 0.5 attack speed )     |
 | Strength    | Angry    | +5 strength    |
 
 # Starting point (Optional)
