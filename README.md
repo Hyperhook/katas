@@ -85,3 +85,5 @@ public interface Weapon{
   String stats();
 }
 ```
+# Harder version
+Durance can now carry more weapons and each one can have up to 3 unique enchantments, he is also worried about dealing the most damage possible so DPS (Damage per second) should be calculated now.
