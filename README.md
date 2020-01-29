@@ -12,7 +12,7 @@ Example:
 
 ```
 Dagger of the Nooblet
- 5 attack
+ 5 - 10 attack
  1.0 attack speed
  
  “1337 haxx”
@@ -21,7 +21,7 @@ After enchanting it, Durance rolled the Fire enchantment!
 
 ```
 Inferno Dagger of the Nooblet
- 5 attack
+ 5 - 10 attack
  1.0 attack speed
  +5 fire damage
 	
@@ -30,7 +30,7 @@ Inferno Dagger of the Nooblet
 Not satisfied, he enchanted it again and this time he got the Agility enchantment!
 ```
 Quick Dagger of the Nooblet
- 5 attack
+ 5 - 10 attack
  1.0 attack speed
  +5 agility
 	
@@ -39,7 +39,7 @@ Quick Dagger of the Nooblet
 He felt confident thinking that he could get something better and tried again, sadly, he lost his enchantment!
 ```
 Dagger of the Nooblet
- 5 attack
+ 5 - 10 attack
  1.0 attack speed
  
  “1337 haxx”
@@ -86,4 +86,6 @@ public interface Weapon{
 }
 ```
 # Harder version
-Durance can now carry more weapons and each one can have up to 3 unique enchantments, he is also worried about dealing the most damage possible so DPS (Damage per second) should be calculated now.
+Durance can now carry more weapons and each one can have up to 3 unique enchantments, he is also worried about dealing the most damage possible, so DPS (Damage per second) should be displayed now as well.
+
+DPS is calculated in the following way: `((Min Weapon Damage + Max Weapon Damage) / 2) / Weapon Speed`
