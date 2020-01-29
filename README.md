@@ -12,8 +12,8 @@ Example:
 
 ```
 Dagger of the Nooblet
- 5 - 10 attack
- 1.0 attack speed
+ 5 - 10 attack damage
+ 1.2 attack speed
  
  “1337 haxx”
 ```
@@ -21,8 +21,8 @@ After enchanting it, Durance rolled the Fire enchantment!
 
 ```
 Inferno Dagger of the Nooblet
- 5 - 10 attack
- 1.0 attack speed
+ 5 - 10 attack damage
+ 1.2 attack speed
  +5 fire damage
 	
  “1337 haxx”
@@ -30,8 +30,8 @@ Inferno Dagger of the Nooblet
 Not satisfied, he enchanted it again and this time he got the Agility enchantment!
 ```
 Quick Dagger of the Nooblet
- 5 - 10 attack
- 1.0 attack speed
+ 5 - 10 attack damage
+ 1.2 attack speed
  +5 agility
 	
  “1337 haxx”
@@ -39,8 +39,8 @@ Quick Dagger of the Nooblet
 He felt confident thinking that he could get something better and tried again, sadly, he lost his enchantment!
 ```
 Dagger of the Nooblet
- 5 - 10 attack
- 1.0 attack speed
+ 5 - 10 attack damage
+ 1.2 attack speed
  
  “1337 haxx”
 ```
@@ -62,7 +62,7 @@ An enchantment adds different attributes to a weapon, for this kata, we can choo
 | Ice         | Icy      | +5 ice damage  |
 | Fire        | Inferno  | +5 fire damage |
 | Lifesteal   | Vampire  | +5 lifesteal   |
-| Agility     | Quick    | +5 agility     |
+| Agility     | Quick    | +5 agility ( translates to tenth of a second )     |
 | Strength    | Angry    | +5 strength    |
 
 # Starting point (Optional)
@@ -86,6 +86,6 @@ public interface Weapon{
 }
 ```
 # Harder version
-Durance can now carry more weapons and each one can have up to 3 unique enchantments, he is also worried about dealing the most damage possible, so DPS (Damage per second) should be displayed now as well.
+Durance can now carry more weapons and each one can have up to 3 unique enchantments, he is also worried about dealing the most damage possible, so DPS (Damage per second) should be displayed as well.
 
 DPS is calculated in the following way: `((Min Weapon Damage + Max Weapon Damage) / 2) / Weapon Speed`
