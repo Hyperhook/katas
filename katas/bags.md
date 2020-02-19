@@ -6,7 +6,7 @@ Create an application that helps Durance organize the items in his bags. Each ba
 
 By default, items are added to the backpack and are only organized after requesting for it.
 
-If the backpack is full, the item is added to the next available bag. After organizing the bags, if an item can't be placed in it's respective bag, it is moved to the backpack.
+If the backpack is full, the item is added to the next available bag. After organizing the bags, if an item can't be placed in it's respective bag, it is moved to the backpack, and if the backpack is full, to the next bag.
 
 ## Possible Items
 
