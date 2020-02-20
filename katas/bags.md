@@ -4,7 +4,7 @@ When Durance left his home to start his adventures, all he brought was a backpac
 After enchanting his weapons and looking for ingredients and materials for a long time, Durance noticed all of his bags were really disorganized, maybe we can code a spell for him to organize them?
 
 ## Requirements
-Create an application that helps Durance organize the items in his bags. Each bag can have either a category or not, the backpack has no category and can store every type of item. 
+Create an application that helps Durance organize the items in his bags. Each bag can have either a category or not, the backpack has no category. 
 
 Items are always added to the backpack, if it happens to be full, the item is added to the next available bag.
 
