@@ -15,6 +15,7 @@ This is how the first 200 steps of the ant would look like with the rules above 
 ## Rules
 
 - The code **must** be tested, do it for the ants.
+- The ant starts in the center of the grid.
 - The grid must be shown after every step so we can observe it.
 - We must be able to stop the code after `x` iterations.
 
