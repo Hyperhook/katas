@@ -1,0 +1,13 @@
+Airplanes have been a miracle in transportation for the past century or so, but we still have a persisting problem: 
+How to efficiently aboard people onto an airplanes?
+Hopefully with this kata we'll be able to solve this problem.
+
+Having an airplane like
+
+| A | Row | B |
+|---|-----|---|
+| 1 |  -  | 1 |
+| 2 |  -  | 2 |
+| 3 |  -  | 3 |
+| 4 |  -  | 4 |
+| 5 |  -  | 5 |
