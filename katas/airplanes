@@ -17,6 +17,7 @@ We would like to find a way for sitting the passengers in the fastest way. That 
 Rules:
 
 - The airplane is fully booked.
+- The airplane can be entered from the front and from the back.
 - All movements are done on individual rounds ( one movement per round ).
 - Passengers can be sorted before boarding the plane.
 - 2 people can occupy the same position in the corridor.
