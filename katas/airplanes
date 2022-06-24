@@ -1,13 +1,23 @@
 Airplanes have been a miracle in transportation for the past century or so, but we still have a persisting problem: 
-How to efficiently aboard people onto an airplanes?
+How to efficiently board people into an airplane?
 Hopefully with this kata we'll be able to solve this problem.
 
-Having an airplane like
+Having an airplane like:
 
-| A | Row | B |
-|---|-----|---|
-| 1 |  -  | 1 |
-| 2 |  -  | 2 |
-| 3 |  -  | 3 |
-| 4 |  -  | 4 |
-| 5 |  -  | 5 |
+| A | B | Row | C | D |
+|---|---|-----|---|---|
+| 1 | 1 |  -  | 1 | 1 |
+| 2 | 2 |  -  | 2 | 2 |
+| 3 | 3 |  -  | 3 | 3 |
+| 4 | 4 |  -  | 4 | 4 |
+
+We would like to find a way for sitting the passengers in the fastest way.
+
+Rules:
+
+- The airplane is fully booked.
+- All movements are done on individual cycles ( one movement per cycle ).
+- Passengers can be sorted before boarding the plane.
+- 2 people can occupy the same position in the corridor.
+- Once a passenger finds the right row for their seat, they need 1 cycle to put their luggage in the overhead cabin.
+- Once a passenger sits, that person can't move anymore.
