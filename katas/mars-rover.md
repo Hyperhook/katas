@@ -31,7 +31,7 @@ given an input `MMMMMMMMMM` gives output `0:0:N` (due to wrap-around)
 
 ![mars-rover-animation](https://www.codurance.com/hs-fs/hubfs/MarsRoverAnimation.gif?width=1298&name=MarsRoverAnimation.gif)
 
-## Interface
+# Interface
 
 There are no restrictions on the design of the public interface.
 
@@ -43,8 +43,8 @@ class Rover:
     ...
 ```
 
-Rules:
-The rover receives a char array of commands e.g. `RMMLM` and returns the finishing point after the moves e.g. `2:1:N`
+# Rules:
+The rover receives an array of commands e.g. `RMMLM` and returns the finishing point after the moves e.g. `2:1:N`
 The rover wraps around if it reaches the end of the grid.
 
 Credit: Google Code Archive
