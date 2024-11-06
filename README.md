@@ -1,5 +1,5 @@
 # katas
-Collection of katas created by me :)
+Collection of katas created by me and others :)
 
 Accepting suggestions and ideas, if you like them, mention me ;)
 
